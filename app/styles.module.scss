@@ -1,0 +1,35 @@
+.main {
+  display: flex;
+  padding: 5vw;
+
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5vw;
+
+    a {
+      text-decoration: none;
+      color: #3ea6ff;
+      font-size: 2vw;
+      font-weight: 500;
+      padding: 1em;
+      border-radius: 0.2em;
+      background: rgba(black, 0.8);
+
+      &:hover {
+        background: black;
+      }
+
+      &:last-child {
+        color: #aaa;
+        cursor: auto;
+
+        &:hover {
+          background: rgba(black, 0.8);
+        }
+      }
+    }
+  }
+}
