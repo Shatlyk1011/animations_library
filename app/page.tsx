@@ -1,5 +1,5 @@
 "use client";
-import { FC } from "react";
+import { FC, useEffect } from "react";
 
 interface Props {}
 
@@ -11,6 +11,7 @@ const Page: FC<Props> = () => {
     <main className={styles.main}>
       <div className={styles.nav}>
         <Link href="/infinite_text">Infinite Text scroll</Link>
+        <Link href="/mask_text">Masked Text</Link>
         <Link href="/"> ADD NEW</Link>
       </div>
     </main>
