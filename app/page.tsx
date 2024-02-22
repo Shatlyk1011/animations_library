@@ -12,6 +12,8 @@ const Page: FC<Props> = () => {
       <div className={styles.nav}>
         <Link href="/infinite_text">Infinite Text scroll</Link>
         <Link href="/mask_text">Masked Text</Link>
+        <Link href="/parallax_scroll">Parallax Scroll</Link>
+        <Link href="/curved_menu">Curved Menu</Link>
         <Link href="/"> ADD NEW</Link>
       </div>
     </main>
