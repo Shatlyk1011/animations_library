@@ -27,7 +27,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "app/mask_text/page.js",
-    "app/parallax_scroll/page.js"
+    "app/parallax_scroll/page.js",
+    "app/text_gradient_scroll/components/Character.jsx"
   ],
   "exclude": ["node_modules"]
 }

@@ -14,6 +14,7 @@ const Page: FC<Props> = () => {
         <Link href="/mask_text">Masked Text</Link>
         <Link href="/parallax_scroll">Parallax Scroll</Link>
         <Link href="/curved_menu">Curved Menu</Link>
+        <Link href="/text_gradient_scroll">Text Gradient Scroll</Link>
         <Link href="/"> ADD NEW</Link>
       </div>
     </main>
