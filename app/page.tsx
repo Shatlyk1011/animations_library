@@ -18,6 +18,7 @@ const Page = () => {
         <Link href="/floating_image_gallery">Floating Image Gallery</Link>
         <Link href="/sliding_stairs_menu">Sliding Stairs Menu</Link>
         <Link href="/svg_bezier_curve">Svg Bezier Curve</Link>
+        <Link href="/card_hover">Card Hover</Link>
 
         <Link href="/"> ADD NEW</Link>
       </div>
