@@ -1,12 +1,9 @@
 "use client";
-import { FC, useEffect } from "react";
-
-interface Props {}
 
 import styles from "./styles.module.scss";
 import Link from "next/link";
 
-const Page: FC<Props> = () => {
+const Page = () => {
   return (
     <main className={styles.main}>
       <div className={styles.nav}>
@@ -19,6 +16,8 @@ const Page: FC<Props> = () => {
         <Link href="/text_mask_animation">Text Mask Animation</Link>
         <Link href="/text_clip_mask_on_scroll">Text Clip Mask On Scroll</Link>
         <Link href="/floating_image_gallery">Floating Image Gallery</Link>
+        <Link href="/sliding_stairs_menu">Sliding Stairs Menu</Link>
+        <Link href="/svg_bezier_curve">Svg Bezier Curve</Link>
 
         <Link href="/"> ADD NEW</Link>
       </div>
