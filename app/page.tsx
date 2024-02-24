@@ -18,6 +18,7 @@ const Page: FC<Props> = () => {
         <Link href="/nav_menu">Nav Menu</Link>
         <Link href="/text_mask_animation">Text Mask Animation</Link>
         <Link href="/text_clip_mask_on_scroll">Text Clip Mask On Scroll</Link>
+        <Link href="/floating_image_gallery">Floating Image Gallery</Link>
 
         <Link href="/"> ADD NEW</Link>
       </div>

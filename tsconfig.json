@@ -29,7 +29,8 @@
     "app/mask_text/page.js",
     "app/parallax_scroll/page.js",
     "app/text_gradient_scroll/components/Character.jsx",
-    "app/text_clip_mask_on_scroll/page.jsx"
+    "app/text_clip_mask_on_scroll/page.jsx",
+    "app/floating_image_gallery/page.jsx"
   ],
   "exclude": ["node_modules"]
 }
