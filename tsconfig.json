@@ -33,7 +33,9 @@
     "app/Cards/floating_image_gallery/page.jsx",
     "app/headers/sliding_stairs_menu/components/header/burger/index.js",
     "app/Cards/parallax_2_ways/GSAP/index.jsx",
-    "app/Fancy/sticky_cursor/components/magnetic/index.jsx"
+    "app/Fancy/sticky_cursor/components/magnetic/index.jsx",
+    "app/Text/text_dispersion_effect/page.jsx",
+    "app/Text/text_dispersion_effect/components/TextDisperse/index.jsx"
   ],
   "exclude": ["node_modules"]
 }
