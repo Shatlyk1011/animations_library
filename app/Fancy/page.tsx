@@ -10,8 +10,9 @@ const Page = () => {
         <Link href="/Fancy/infinite_text">Infinite Text</Link>
         <Link href="/Fancy/mask_text">Mask Text</Link>
         <Link href="/Fancy/svg_bezier_curve">Svg Bezier Curve</Link>
+        <Link href="/Fancy/sticky_cursor">Sticky Cursor</Link>
 
-        <Link href="/"> HOME</Link>
+        <Link href="/">HOME</Link>
       </div>
     </main>
   );

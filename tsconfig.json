@@ -32,7 +32,8 @@
     "app/Text/text_clip_mask_on_scroll/page.jsx",
     "app/Cards/floating_image_gallery/page.jsx",
     "app/headers/sliding_stairs_menu/components/header/burger/index.js",
-    "app/Cards/parallax_2_ways/GSAP/index.jsx"
+    "app/Cards/parallax_2_ways/GSAP/index.jsx",
+    "app/Fancy/sticky_cursor/components/magnetic/index.jsx"
   ],
   "exclude": ["node_modules"]
 }
