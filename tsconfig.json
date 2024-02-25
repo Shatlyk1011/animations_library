@@ -31,7 +31,8 @@
     "app/Text/text_gradient_scroll/components/Character.jsx",
     "app/Text/text_clip_mask_on_scroll/page.jsx",
     "app/Cards/floating_image_gallery/page.jsx",
-    "app/headers/sliding_stairs_menu/components/header/burger/index.js"
+    "app/headers/sliding_stairs_menu/components/header/burger/index.js",
+    "app/Cards/parallax_2_ways/GSAP/index.jsx"
   ],
   "exclude": ["node_modules"]
 }

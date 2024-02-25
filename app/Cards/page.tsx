@@ -10,6 +10,8 @@ const Page = () => {
         <Link href="/Cards/floating_image_gallery">Floating Image Gallery</Link>
         <Link href="/Cards/parallax_scroll">Parallax Scroll</Link>
         <Link href="/Cards/card_hover">Card Hover</Link>
+        <Link href="/Cards/zoom_parallax">Zoom Parallax</Link>
+        <Link href="/Cards/parallax_2_ways">2 ways parallax</Link>
 
         <Link href="/"> HOME</Link>
       </div>
