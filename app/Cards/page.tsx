@@ -9,6 +9,7 @@ const Page = () => {
       <div className={styles.nav}>
         <Link href="/Cards/floating_image_gallery">Floating Image Gallery</Link>
         <Link href="/Cards/parallax_scroll">Parallax Scroll</Link>
+        <Link href="/Cards/card_hover">Card Hover</Link>
 
         <Link href="/"> HOME</Link>
       </div>
