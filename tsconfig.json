@@ -26,12 +26,12 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "app/mask_text/page.js",
-    "app/parallax_scroll/page.js",
-    "app/text_gradient_scroll/components/Character.jsx",
-    "app/text_clip_mask_on_scroll/page.jsx",
-    "app/floating_image_gallery/page.jsx",
-    "app/sliding_stairs_menu/components/header/burger/index.js"
+    "app/Fancy/mask_text/page.js",
+    "app/Cards/parallax_scroll/page.js",
+    "app/Text/text_gradient_scroll/components/Character.jsx",
+    "app/Text/text_clip_mask_on_scroll/page.jsx",
+    "app/Cards/floating_image_gallery/page.jsx",
+    "app/headers/sliding_stairs_menu/components/header/burger/index.js"
   ],
   "exclude": ["node_modules"]
 }

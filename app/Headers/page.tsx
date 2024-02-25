@@ -7,10 +7,9 @@ const Page = () => {
   return (
     <main className={styles.main}>
       <div className={styles.nav}>
-        <Link href="/Headers">HEADER COMPONENTS</Link>
-        <Link href="/Cards">CARD COMPONENTS</Link>
-        <Link href="/Fancy">FANCY COMPONENTS</Link>
-        <Link href="/Text">TEXT COMPONENTS</Link>
+        <Link href="/Headers/curved_menu">Curved Menu</Link>
+        <Link href="/Headers/nav_menu">Nav Menu</Link>
+        <Link href="/Headers/sliding_stairs_menu">Sliding Stairs Menu</Link>
 
         <Link href="/"> HOME</Link>
       </div>

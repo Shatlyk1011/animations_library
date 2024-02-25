@@ -61,7 +61,7 @@ const ParallaxScroll = () => {
 
   return (
     <main className={styles.main}>
-      <div className={styles.spaces}>scroll down</div>
+      <div className={`${styles.header} ${styles.spaces}`}>scroll down</div>
       <div ref={gallery} className={styles.gallery}>
         <Column images={[images[0], images[2], images[4]]} y={y1} />
         <Column images={[images[5], images[6], images[3]]} y={y2} />
