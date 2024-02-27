@@ -35,7 +35,9 @@
     "app/Cards/parallax_2_ways/GSAP/index.jsx",
     "app/Fancy/sticky_cursor/components/magnetic/index.jsx",
     "app/Text/text_dispersion_effect/page.jsx",
-    "app/Text/text_dispersion_effect/components/TextDisperse/index.jsx"
+    "app/Text/text_dispersion_effect/components/TextDisperse/index.jsx",
+    "app/Cards/cards_parallax/data.js",
+    "app/Cards/cards_parallax/page.jsx"
   ],
   "exclude": ["node_modules"]
 }
