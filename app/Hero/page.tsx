@@ -7,9 +7,8 @@ const Page = () => {
   return (
     <main className={styles.main}>
       <div className={styles.nav}>
-        <Link href="/Headers/curved_menu">Curved Menu</Link>
-        <Link href="/Headers/nav_menu">Nav Menu</Link>
-        <Link href="/Headers/sliding_stairs_menu">Sliding Stairs Menu</Link>
+        <Link href="/Hero/floating_image_gallery">Floating Image Gallery</Link>
+        <Link href="/Hero/hero_test">Hero Test</Link>
 
         <Link href="/"> HOME</Link>
       </div>

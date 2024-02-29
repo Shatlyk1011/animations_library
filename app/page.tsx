@@ -11,6 +11,7 @@ const Page = () => {
         <Link href="/Cards">CARD COMPONENTS</Link>
         <Link href="/Fancy">FANCY COMPONENTS</Link>
         <Link href="/Text">TEXT COMPONENTS</Link>
+        <Link href="/Hero">HERO COMPONENTS</Link>
 
         <Link href="/"> HOME</Link>
       </div>
