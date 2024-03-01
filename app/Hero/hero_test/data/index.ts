@@ -1,5 +1,5 @@
-import svg1 from "./Group 12.svg";
-import svg2 from "./Group 13.svg";
-import main from "./main2.svg";
+import main_1 from "./main_11.svg";
+import main_2 from "./main_22.svg";
+import main_3 from "./main_33.svg";
 
-export { main, svg1, svg2 };
+export { main_1, main_2, main_3 };

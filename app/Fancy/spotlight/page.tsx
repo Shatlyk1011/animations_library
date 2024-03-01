@@ -1,6 +1,6 @@
 "use client";
 
-import { Spotlight } from "./components/Spotlight";
+import Spotlight from "./components/Spotlight";
 
 import styles from "./styles.module.scss";
 
