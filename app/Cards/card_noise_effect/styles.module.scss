@@ -1,0 +1,39 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #303030;
+  #card {
+    width: 580px;
+    aspect-ratio: 2 / 3;
+    border: 0.25rem solid rgb(255 255 255 / 15%);
+    border-radius: 1rem;
+    cursor: pointer;
+    overflow: hidden;
+
+    &:hover > img {
+      animation: pulse 800ms ease-in-out;
+      filter: url(#noise);
+    }
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: inherit;
+    }
+  }
+
+  @keyframes pulse {
+    from,
+    to {
+      scale: 1;
+    }
+
+    50% {
+      scale: 1.08;
+    }
+  }
+}
