@@ -1,4 +1,4 @@
-import main_1 from "./main_11.svg";
+import main_1 from "./main_111.svg";
 import main_2 from "./main_22.svg";
 import main_3 from "./main_33.svg";
 
