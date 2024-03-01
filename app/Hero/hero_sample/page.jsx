@@ -5,7 +5,7 @@ import gsap from "gsap";
 
 import styles from "./styles.module.scss";
 
-import Spotlight from "../../Fancy/spotlight/components/Spotlight";
+import Spotlight from "./components/Spotlight";
 
 import { main_1, main_2, main_3 } from "./data/index";
 
@@ -58,7 +58,7 @@ const FloadingImage = () => {
         <Spotlight className={styles.spotlight} />
 
         <h1>hello world</h1>
-        <div ref={plane1} className={styles.plane}>
+        <div ref={plane1} className={`${styles.plane} ${styles.plane__1}`}>
           <Image src={main_1} fill={true} alt="" />
         </div>
         {/* <Spotlight /> */}
