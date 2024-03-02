@@ -11,19 +11,19 @@
 
     a {
       text-decoration: none;
-      color: cyan;
+      color: #3ea6ff;
       font-size: 2vw;
       font-weight: 500;
       padding: 1em;
       border-radius: 0.2em;
-      background: rgba(black, 1);
+      background: rgba(black, 0.8);
 
       &:hover {
         background: black;
       }
 
       &:last-child {
-        color: #F2F;
+        color: #aaa;
         cursor: auto;
 
         &:hover {
