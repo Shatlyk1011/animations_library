@@ -1,0 +1,30 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4.8rem;
+  padding: 6.4rem;
+
+  h1 {
+    height: 6.4rem;
+  }
+}
+
+.container {
+  p {
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 6px;
+  }
+
+  .imageContainer {
+    width: 250px;
+    height: 300px;
+
+    //required beacuse the "fill" mode
+    position: relative;
+
+    img {
+      object-fit: cover;
+    }
+  }
+}

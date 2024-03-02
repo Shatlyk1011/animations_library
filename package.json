@@ -9,11 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@plaiceholder/next": "^3.0.0",
     "@studio-freight/lenis": "^1.0.36",
     "framer-motion": "^11.0.5",
     "gsap": "^3.12.5",
     "locomotive-scroll": "^5.0.0-beta.11",
     "next": "14.1.0",
+    "plaiceholder": "^3.0.0",
     "react": "^18",
     "react-dom": "^18",
     "react-intersection-observer": "^9.8.1",
