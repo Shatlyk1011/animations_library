@@ -16,8 +16,8 @@ const FloadingImage = () => {
   let requestAnimationFrameId = null;
   let xForce = 0;
   let yForce = 0;
-  const easing = 0.08;
-  const speed = 0.01;
+  const easing = 0.1;
+  const speed = 0.02;
 
   const manageMouseMove = (e) => {
     const { movementX, movementY } = e;
@@ -36,9 +36,9 @@ const FloadingImage = () => {
   const animate = () => {
     xForce = lerp(xForce, 0, easing);
     yForce = lerp(yForce, 0, easing);
-    gsap.set(plane1.current, { x: `+=${xForce}`, y: `+=${yForce}` });
-    gsap.set(plane2.current, { x: `+=${xForce * 0.5}`, y: `+=${yForce * 0.6}` });
-    gsap.set(plane3.current, { x: `+=${xForce * 0.25}`, y: `+=${yForce * 0.2}` });
+    gsap.set(plane1.current, { x: `+=${xForce * 0.5}`, y: `+=${yForce * 0.5}` });
+    gsap.set(plane2.current, { x: `+=${xForce * 0.5}`, y: `+=${yForce * 0.5}` });
+    gsap.set(plane3.current, { x: `+=${xForce * 0.25}`, y: `+=${yForce * 0.25}` });
 
     if (Math.abs(xForce) < 0.01) xForce = 0;
     if (Math.abs(yForce) < 0.01) yForce = 0;
@@ -63,11 +63,11 @@ const FloadingImage = () => {
         </div>
         {/* <Spotlight /> */}
 
-        <div ref={plane2} className={styles.plane}>
+        <div ref={plane2} className={`${styles.plane} ${styles.plane__2}`}>
           <Image src={main_2} fill={true} alt="" />
         </div>
 
-        <div ref={plane3} className={styles.plane}>
+        <div ref={plane3} className={`${styles.plane} ${styles.plane__3}`}>
           <Image src={main_3} fill={true} alt="" />
         </div>
       </main>

@@ -28,12 +28,17 @@
     top: 0;
     left: 0;
 
+    &__2 {
+      transform: scale(1.15);
+    }
+
     &__1 {
       z-index: 3;
     }
 
     img {
       object-fit: cover;
+
     }
   }
 }
