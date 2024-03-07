@@ -14,6 +14,7 @@ const Page = () => {
         <Link href="/Cards/parallax_2_ways">2 ways parallax</Link>
         <Link href="/Cards/cards_parallax">Cards Parallax</Link>
         <Link href="/Cards/card_noise_effect">Card Noise Effect</Link>
+        <Link href="/Cards/card_hover_border">Card Hover Border</Link>
 
         <Link href="/"> HOME</Link>
       </div>

@@ -1,0 +1,14 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #303030;
+  
+  .cards_wrapper {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 32px;
+  }
+}

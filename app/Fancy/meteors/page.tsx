@@ -1,5 +1,4 @@
 "use client";
-import { FC } from "react";
 
 import styles from "./styles.module.scss";
 import Meteors from "./components/meteors";

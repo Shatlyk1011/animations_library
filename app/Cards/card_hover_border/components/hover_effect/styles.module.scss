@@ -1,0 +1,42 @@
+.main {
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 0 40px;
+
+    .link {
+      position: relative;
+      display: block;
+      padding: 8px;
+      height: 100%;
+      width: 100%;
+
+      &:hover > .card {
+        border: pink;
+        position: relative;
+        z-index: 20;
+      }
+
+      .span {
+        position: absolute;
+        inset: 0;
+        height: 100%;
+        background: rgb(gray, 0.3);
+        display: block;
+        border-radius: 8px;
+      }
+
+      .card {
+        border-radius: 16px;
+        height: 100%;
+        width: 100%;
+        padding: 16px;
+        overflow: hidden;
+        background: #000;
+        border: 1px solid transparent;
+      }
+    }
+  }
+}
