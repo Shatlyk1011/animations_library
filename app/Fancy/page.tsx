@@ -13,6 +13,7 @@ const Page = () => {
           Spotlight
         </Link>
         <Link href="/Fancy/tracing_beam">Tracing Beam</Link>
+        <Link href="/Fancy/meteors">Meteors</Link>
 
         <Link href="/">HOME</Link>
       </div>

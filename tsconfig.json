@@ -37,7 +37,8 @@
     "app/Text/text_dispersion_effect/page.jsx",
     "app/Text/text_dispersion_effect/components/TextDisperse/index.jsx",
     "app/Cards/cards_parallax/data.js",
-    "app/Cards/cards_parallax/page.jsx"
+    "app/Cards/cards_parallax/page.jsx",
+    "app/Fancy/meteors/page.js"
   ],
   "exclude": ["node_modules"]
 }
