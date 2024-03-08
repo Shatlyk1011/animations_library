@@ -12,6 +12,7 @@ const Page = () => {
         <Link href="/Fancy">FANCY COMPONENTS</Link>
         <Link href="/Text">TEXT COMPONENTS</Link>
         <Link href="/Hero">HERO COMPONENTS</Link>
+        <Link href="/OnScroll">ON SCROLL</Link>
         <Link href="/Other">other staffs</Link>
 
         <Link href="/"> HOME</Link>

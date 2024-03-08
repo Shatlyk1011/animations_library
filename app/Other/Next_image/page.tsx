@@ -23,7 +23,9 @@ export default function Index() {
       </div>
 
       <div className={styles.section}>
-        <h1>Static Import with Placeholder</h1>
+        <h1>
+          Static Import <br /> with Placeholder
+        </h1>
         <div className={styles.images}>
           <StaticPlaceholderBlur src={"/images/5.jpg"} />
           <StaticPlaceholderColor src={"/images/5.jpg"} />
@@ -31,7 +33,9 @@ export default function Index() {
       </div>
 
       <div className={styles.section}>
-        <h1>Dynamic Import with Placeholder</h1>
+        <h1>
+          Dynamic Import <br /> with Placeholder
+        </h1>
         <div className={styles.images}>
           <DynamicPlaceholderBlur src="https://images.unsplash.com/photo-1707343845208-a20c56d2c8ba?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
           <DynamicPlaceholderColor src="https://images.unsplash.com/photo-1707343845208-a20c56d2c8ba?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
