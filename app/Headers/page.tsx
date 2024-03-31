@@ -10,7 +10,6 @@ const Page = () => {
         <Link href="/Headers/curved_menu">Curved Menu</Link>
         <Link href="/Headers/nav_menu">Nav Menu</Link>
         <Link href="/Headers/sliding_stairs_menu">Sliding Stairs Menu</Link>
-        <Link href="/Headers/floating_navbar">Floating Navbar</Link>
 
         <Link href="/"> HOME</Link>
       </div>
