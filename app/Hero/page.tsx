@@ -9,6 +9,7 @@ const Page = () => {
       <div className={styles.nav}>
         <Link href="/Hero/floating_image_gallery">Floating Image Gallery</Link>
         <Link href="/Hero/hero_sample">Hero Sample With `spotlight`</Link>
+        <Link href="/Hero/aurora_bg">aurora_bg</Link>
 
         <Link href="/"> HOME</Link>
       </div>
