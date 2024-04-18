@@ -67,6 +67,7 @@ export default function Index() {
           );
         })}
       </div>
+      <div className="bg-red-500 w-screen h-[300vh]"></div>
     </div>
   );
 }
