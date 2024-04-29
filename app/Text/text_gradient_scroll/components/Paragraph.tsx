@@ -6,7 +6,7 @@ export default function Paragraph({ paragraph }: { paragraph: string }) {
   const container = useRef(null);
   const { scrollYProgress } = useScroll({
     target: container,
-    offset: ["start 0.9", "end 0.8"],
+    offset: ["start 0.9", "start 0.25"],
   });
 
   const opacity = useTransform(scrollYProgress, [0, 1], [1, 0]);
