@@ -4,19 +4,24 @@ import styles from "./styles.module.scss";
 import Link from "next/link";
 
 const Page = () => {
+
+  const links = [
+    { src: '/Headers', title: 'HEADER COMPONENTS' },
+    { src: '/Cards', title: 'CARD COMPONENTS' },
+    { src: '/Fancy', title: 'FANCY COMPONENTS' },
+    { src: '/Text', title: 'TEXT COMPONENTS' },
+    { src: '/Hero', title: 'HERO COMPONENTS' },
+    { src: '/OnScroll', title: 'ON SCROLL' },
+    { src: '/Other', title: 'other staffs' },
+  ]
+
   return (
     <main className={styles.main}>
-      <div className={styles.nav}>
-        <Link href="/Headers">HEADER COMPONENTS</Link>
-        <Link href="/Cards">CARD COMPONENTS</Link>
-        <Link href="/Fancy">FANCY COMPONENTS</Link>
-        <Link href="/Text">TEXT COMPONENTS</Link>
-        <Link href="/Hero">HERO COMPONENTS</Link>
-        <Link href="/OnScroll">ON SCROLL</Link>
-        <Link href="/Other">other staffs</Link>
-
-        <Link href="/"> HOME</Link>
-      </div>
+      <nav className={styles.nav}>
+        {links.map(({ src, title }) => (
+          <Link key={src} href={src}>{title}</Link>
+        ))}
+      </nav>
     </main>
   );
 };

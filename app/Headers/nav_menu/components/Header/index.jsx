@@ -12,13 +12,8 @@ export default function Index() {
   return (
     <div className={styles.header}>
       <div className={styles.bar}>
-        <Link href="/">Olivier</Link>
-        <div
-          onClick={() => {
-            setIsActive(!isActive);
-          }}
-          className={styles.el}
-        >
+        <Link href="/">logo area</Link>
+        <div onClick={() => setIsActive(!isActive)} className={styles.el}>
           <div className={`${styles.burger} ${isActive ? styles.burgerActive : ""}`}></div>
           <div className={styles.label}>
             <motion.p variants={opacity} animate={!isActive ? "open" : "closed"}>

@@ -11,7 +11,7 @@ const Page = () => {
         <Link href="/Headers/nav_menu">Nav Menu</Link>
         <Link href="/Headers/sliding_stairs_menu">Sliding Stairs Menu</Link>
 
-        <Link href="/"> HOME</Link>
+        <Link href="/"> GO HOME</Link>
       </div>
     </main>
   );

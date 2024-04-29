@@ -10,7 +10,7 @@ const Page = () => {
         <Link href="/Fancy/svg_bezier_curve">Svg Bezier Curve</Link>
         <Link href="/Fancy/meteors">Meteors</Link>
 
-        <Link href="/">HOME</Link>
+        <Link href="/">GO HOME</Link>
       </div>
     </main>
   );

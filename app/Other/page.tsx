@@ -9,7 +9,7 @@ const Page = () => {
       <div className={styles.nav}>
         <Link href="/Other/Next_image">Next Image</Link>
 
-        <Link href="/"> HOME</Link>
+        <Link href="/"> GO HOME</Link>
       </div>
     </main>
   );

@@ -1,34 +1,28 @@
+
 .main {
-  display: flex;
   padding: 5vw;
 
   .nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
     gap: 1.5vw;
+    box-sizing: border-box;
+    text-align: center;
 
     a {
+      display: inline-block;
+      width: 40%; 
       text-decoration: none;
-      color: cyan;
-      font-size: 2vw;
+      color: #eee;
+      font-size: 1.75vw;
       font-weight: 500;
       padding: 1em;
       border-radius: 0.2em;
-      background: rgba(black, 1);
+      background: #000;
+      margin-left: 1.5vw;
+      margin-bottom: 1.5vw;
 
       &:hover {
-        background: black;
-      }
-
-      &:last-child {
-        color: #F2F;
-        cursor: auto;
-
-        &:hover {
-          background: rgba(black, 0.8);
-        }
+        background: #222;
       }
     }
   }

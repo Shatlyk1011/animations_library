@@ -2,7 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: Roboto, 'sans-serif';
+}
+
+html {
+  min-height: 100vh;
 }

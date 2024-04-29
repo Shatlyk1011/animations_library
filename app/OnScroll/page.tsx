@@ -7,9 +7,8 @@ const Page = () => {
   return (
     <main className={styles.main}>
       <div className={styles.nav}>
-        {/* <Link href="/OnScroll/sticky_scroll_reveal">Sticky Scroll Reveal</Link> */}
 
-        <Link href="/"> HOME</Link>
+        <Link href="/"> GO HOME</Link>
       </div>
     </main>
   );

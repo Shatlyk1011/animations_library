@@ -14,7 +14,7 @@ const Page = () => {
         <Link href="/Cards/card_noise_effect">Card Noise Effect</Link>
         <Link href="/Cards/HorizontalScroll">Horizontal scroll</Link>
 
-        <Link href="/"> HOME</Link>
+        <Link href="/"> GO HOME</Link>
       </div>
     </main>
   );

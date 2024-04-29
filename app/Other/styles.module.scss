@@ -1,34 +1,31 @@
 .main {
-  display: flex;
   padding: 5vw;
 
   .nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
     gap: 1.5vw;
+    box-sizing: border-box;
+    text-align: center;
 
     a {
+      display: inline-block;
+      width: 40%; 
       text-decoration: none;
-      color: #3ea6ff;
-      font-size: 2vw;
+      color: #fff;
+      font-size: 1.75vw;
       font-weight: 500;
       padding: 1em;
       border-radius: 0.2em;
-      background: rgba(black, 0.8);
-
-      &:hover {
-        background: black;
-      }
+      background: #c9184a;
+      margin-left: 1.5vw;
+      margin-bottom: 1.5vw;
 
       &:last-child {
-        color: #aaa;
-        cursor: auto;
+        background: #ff4d6d;
+      }
 
-        &:hover {
-          background: rgba(black, 0.8);
-        }
+      &:hover {
+        background: #a4133c;
       }
     }
   }
