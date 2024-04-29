@@ -8,9 +8,8 @@ const Page = () => {
     <main className={styles.main}>
       <div className={styles.nav}>
         <Link href="/Fancy/svg_bezier_curve">Svg Bezier Curve</Link>
-        <Link href="/Fancy/sticky_cursor">Sticky Cursor</Link>
-        <Link href="/Fancy/tracing_beam">Tracing Beam</Link>
         <Link href="/Fancy/meteors">Meteors</Link>
+        <Link href="/Fancy/canvas_blocks">Canvas Blocks</Link>
 
         <Link href="/">HOME</Link>
       </div>
