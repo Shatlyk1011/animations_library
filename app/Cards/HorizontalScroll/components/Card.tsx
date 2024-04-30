@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 const Card = ({ card }: any) => {
   return (
@@ -5,7 +6,7 @@ const Card = ({ card }: any) => {
       key={card.id}
       className="group relative h-[450px] w-[450px] overflow-hidden bg-neutral-200"
     >
-      <img src={card.url} className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110" alt="23" />
+      <Image fill={true} objectFit="cover" src={card.url} className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110" alt="23" />
       {/* <div
         style={{
           backgroundImage: `url(${card.url})`,

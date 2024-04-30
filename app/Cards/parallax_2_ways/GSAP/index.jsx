@@ -3,9 +3,9 @@ import { useLayoutEffect, useRef } from "react";
 import styles from "../styles.module.scss";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Picture1 from "../../../../public/images/1.jpg";
-import Picture2 from "../../../../public/images/2.jpg";
-import Picture3 from "../../../../public/images/3.jpg";
+import Picture1 from "../../../../public/images/5.jpg";
+import Picture2 from "../../../../public/images/4.jpg";
+import Picture3 from "../../../../public/images/2.jpg";
 import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);

@@ -32,7 +32,7 @@ const CardBlur = () => {
       </svg>
       <div id={styles.card}>
         <img
-          src="/images/1.jpg"
+          src="/images/5.jpg"
           alt=""
         />
       </div>

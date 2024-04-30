@@ -10,6 +10,7 @@ export default function Home() {
   const words = paragraph.split(" ");
   return (
     <main style={{ background: "rgb(24,24,24)" }}>
+      <h1 className="text-white text-center text-[2vw] pt-[2vw]">scroll down</h1>
       <div style={{ height: "100vh" }}></div>
       <Paragraph paragraph={paragraph} />
       <div style={{ height: "100vh" }}></div>
