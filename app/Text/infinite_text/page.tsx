@@ -46,7 +46,7 @@ export default function Index() {
   };
   return (
     <main className={styles.main}>
-      <Image src="/images/bg-1.jpg" fill={true} alt="bg" />
+      <Image src="/images/5.jpg" fill={true} alt="bg" />
 
       <div className={styles.sliderContainer}>
         <div ref={slider} className={styles.slider}>
