@@ -45,15 +45,15 @@ export default function Index() {
     xPercent += 0.1 * direction;
   };
   return (
-    <main className={styles.main}>
+    <div className="flex items-center overflow-hidden h-screen relative mb-[60vh]">
       <Image src="/images/5.jpg" fill={true} alt="bg" />
 
-      <div className={styles.sliderContainer}>
-        <div ref={slider} className={styles.slider}>
-          <p ref={firstText}>Lorem ipsum dolor sit amet.</p>
-          <p ref={secondText}>Lorem ipsum dolor sit amet.</p>
+      <div className="absolute">
+        <div ref={slider} className="relative whitespace-nowrap flex m-0 text-white" >
+          <p ref={firstText} className="text-[8vw] font-medium m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <p ref={secondText} className="text-[8vw] font-medium m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div>
       </div>
-    </main>
+    </div>
   );
 }
