@@ -1,4 +1,4 @@
-# Animation Components Repository
+# This project has been converted into a component library - [Edil-Ozi](https://github.com/Edil-ozi/edil-ozi)
 
 This repository hosts a collection of unique animation components designed using GSAP and Framer Motion libraries. These tools allow for rich, performative animations that can enhance any web project. The components cover a wide range of effects and can be easily integrated into your existing or new projects.
 
